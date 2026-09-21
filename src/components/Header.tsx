@@ -8,7 +8,6 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import Logo from "@/components/Logo";
 import ModeToggle from "@/components/ModeToggle";
 
 const Header = () => {
@@ -52,7 +51,11 @@ const Header = () => {
           `}
         >
           <a href="/#home" aria-label="Go to home section">
-            <Logo className="w-auto h-16 md:h-16 transition-all duration-500 ease-out" />
+            <img
+              src="/assets/digol-logo.png"
+              alt="Digol"
+              className="h-10 w-auto rounded-full transition-all duration-500 ease-out md:h-14"
+            />
           </a>
 
           {/* Desktop Navigation */}
