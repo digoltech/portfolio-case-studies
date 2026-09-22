@@ -52,9 +52,9 @@ const Header = () => {
         >
           <a href="/#home" aria-label="Go to home section">
             <img
-              src="/assets/digol-logo.png"
+              src="/assets/digol-tp.png"
               alt="Digol"
-              className="h-10 w-auto rounded-full transition-all duration-500 ease-out md:h-14"
+              className="h-12 w-auto rounded-full transition-all duration-500 ease-out md:h-20"
             />
           </a>
 
